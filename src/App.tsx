@@ -16,7 +16,7 @@ const App: React.FC = () => {
       <input
         type="text"
         onChange={e => handleChange(e.target.value)}
-        placeholder="Type numbers like : 1/3/4"
+        placeholder="Type numbers like : 1 / 3 / 4"
       />
       <BoxContainer numberOfColumns={numberOfColumns} />
     </div>
