@@ -1,4 +1,5 @@
 import React from "react";
+import "./EachRow.css";
 
 interface FormProps {
   columns: number;
@@ -6,14 +7,13 @@ interface FormProps {
 
 const EachRow: React.FC<FormProps> = props => {
   return (
-    <div style={{ height: "100px", backgroundColor: "red", display: "flex" }}>
+    <div className="Row">
       {[...Array(props.columns)].map((el, index) => (
         <div
           key={index}
+          className="Cell"
           style={{
-            display: "flex",
-            flexBasis: `${100 / props.columns}%`,
-            border: "solid black 1px"
+            flexBasis: `${100 / props.columns}%`
           }}
         ></div>
       ))}

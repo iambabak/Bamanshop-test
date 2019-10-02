@@ -1,0 +1,9 @@
+.Row {
+  height: 100px;
+  background-color: red;
+  display: flex;
+}
+.Cell {
+  display: flex;
+  border: solid black 1px;
+}
