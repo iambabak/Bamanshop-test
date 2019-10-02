@@ -1,5 +1,5 @@
 import React from "react";
-// import EachRow from './EachRow'
+import EachRow from "../EachRow";
 
 interface FormProps {
   numberOfColumns: Array<number>;
@@ -7,9 +7,9 @@ interface FormProps {
 
 const BoxContainer: React.FC<FormProps> = props => {
   return (
-    <div style={{ width: "800px", backgroundColor: "blue" }}>
+    <div style={{ width: "800px" }}>
       {props.numberOfColumns.map(
-        (el, index) => el > 0 && <div key={index}>123</div>
+        (el, index) => el > 0 && <EachRow key={index} columns={el} />
       )}
     </div>
   );
