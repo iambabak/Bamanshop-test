@@ -2,11 +2,11 @@ import React from "react";
 import EachRow from "../EachRow";
 import "./BoxContainer.css";
 
-interface FormProps {
+interface IBoxProps {
   numberOfColumns: Array<number>;
 }
 
-const BoxContainer: React.FC<FormProps> = props => {
+const BoxContainer: React.FC<IBoxProps> = props => {
   return (
     <div className="BoxContainer">
       {props.numberOfColumns.map(

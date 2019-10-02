@@ -1,11 +1,11 @@
 import React from "react";
 import "./EachRow.css";
 
-interface FormProps {
+interface IEachRowProps {
   columns: number;
 }
 
-const EachRow: React.FC<FormProps> = props => {
+const EachRow: React.FC<IEachRowProps> = props => {
   return (
     <div className="Row">
       {[...Array(props.columns)].map((el, index) => (
