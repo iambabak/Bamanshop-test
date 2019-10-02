@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In addition to using typescript and react hooks, This project is a PWA and is installable web-app and will work offline. For your convenience I deployed the project [here](https://shut-wrench.surge.sh/) 
+In addition to using typescript and react hooks, This project is a PWA and is installable web-app and will work offline. For your convenience I deployed the project [here](https://industrious-toe.surge.sh/) 
 
 Please run npm install for installing packages.
 
